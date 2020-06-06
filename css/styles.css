@@ -1,0 +1,120 @@
+/* * {
+    outline: 1px solid
+} */
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.principal {
+    width: 95%;
+    margin: 0 auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.navegacao {
+    width: 97%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.banner {
+    width: 97%;
+    padding: 1%;
+    background-image: url(/assets/purple-string-lights-and-lamps-with-curtains-1042152.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    margin: 0 auto;
+    height: 40%;
+}
+
+.banner h1 {
+    width: 40%;
+    font-size: 2.5rem;
+}
+
+.menu {
+    width: 74%;
+    margin: 0 auto;
+    text-align: end;
+}
+
+.menu nav ul li {
+    display: inline;
+}
+
+.menu nav ul li a {
+    padding: 10px 50px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+}
+
+.logo {
+    width: 24%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.logo img {
+    width: 48px;
+    height: 48px;
+}
+
+.logo span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: rgb(94, 5, 39);
+    line-height: 48px;
+    vertical-align: top;
+}
+
+.noticia-container {
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 40%;
+}
+
+.noticia h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.noticia {
+    background-color: #d3cece;
+    width: 32%;
+}
+
+.noticia-conteudo {
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.noticia a {
+    padding: 15px 60px 15px 20px;
+    background-color: rgb(94, 5, 39);
+    color: white;
+    text-decoration: none;
+}
+
+.texto {
+    min-height: 150px;
+    font-size:1.6em;
+}
+
+.botao {
+    margin: 5% 0;
+}
