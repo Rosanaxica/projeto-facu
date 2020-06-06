@@ -121,3 +121,10 @@ body, html {
 .botao {
     margin: 5% 0;
 }
+.footer{
+    color:white;
+    background-color: black;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+}
