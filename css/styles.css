@@ -76,6 +76,7 @@ body, html {
     color: rgb(94, 5, 39);
     line-height: 48px;
     vertical-align: top;
+    margin-left:5% ;
 }
 
 .noticia-container {
@@ -90,7 +91,7 @@ body, html {
 
 .noticia h2 {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .noticia {
